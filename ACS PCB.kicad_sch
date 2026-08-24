@@ -1925,6 +1925,16 @@
 		)
 		(uuid "46b9a4d0-59cc-4309-8df5-5d7d4459ca98")
 	)
+	(text "HELLOOOO"
+		(exclude_from_sim no)
+		(at 78.105 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f7ee39c-fdca-4f0c-91c3-6c34213cda65")
+	)
 	(text "interrupts? maybe? no?"
 		(exclude_from_sim no)
 		(at 241.935 88.265 0)
