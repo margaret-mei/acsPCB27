@@ -727,7 +727,7 @@
         "uuid": "67a598cb-afc0-4277-b58a-8f35d31efc48"
       }
     ],
-    "used_designators": "Cout1-2,R1-8,C1-4,C8-18,#PWR1-8,A1,100nF1-4,U1-7",
+    "used_designators": "U1-7,100nF1-4,A1,#PWR1-8,C1-6,C8-18,R1-8,Cout1-2",
     "variants": []
   },
   "sheets": [
@@ -742,6 +742,18 @@
     [
       "f5fe821a-4bb8-48f8-afca-98373fb03684",
       "IMUs"
+    ],
+    [
+      "52e21e5d-46e6-440d-b2c7-d7be369a43cb",
+      "LED indicator"
+    ],
+    [
+      "b00ea79a-9509-46ba-9d77-394a9b994d6c",
+      "WiFi board"
+    ],
+    [
+      "8f3a2ae2-24ee-4ca8-930f-6202803bc7c8",
+      "Power"
     ]
   ],
   "text_variables": {},
