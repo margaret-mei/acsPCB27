@@ -2210,7 +2210,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 73.025)
+		(at 37.465 112.395)
 		(size 53.34 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2226,7 +2226,7 @@
 		)
 		(uuid "52e21e5d-46e6-440d-b2c7-d7be369a43cb")
 		(property "Sheetname" "LED indicator"
-			(at 38.1 72.3134 0)
+			(at 37.465 111.6834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "Sheetfile" "LEDindicator.kicad_sch"
-			(at 38.1 109.1696 0)
+			(at 37.465 148.5396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2256,8 +2256,8 @@
 		)
 	)
 	(sheet
-		(at 37.465 172.085)
-		(size 52.07 28.575)
+		(at 37.465 160.02)
+		(size 52.07 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2272,7 +2272,7 @@
 		)
 		(uuid "7e43b903-1276-473b-9b0c-1e51fe4b0195")
 		(property "Sheetname" "Altimeters"
-			(at 37.465 171.3734 0)
+			(at 37.465 159.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "Sheetfile" "acs_altimeters.kicad_sch"
-			(at 37.465 201.2446 0)
+			(at 37.465 197.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2348,7 +2348,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 123.19)
+		(at 100.965 112.395)
 		(size 51.435 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2364,7 +2364,7 @@
 		)
 		(uuid "b00ea79a-9509-46ba-9d77-394a9b994d6c")
 		(property "Sheetname" "WiFi board"
-			(at 101.6 122.4784 0)
+			(at 100.965 111.6834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2375,7 +2375,7 @@
 			)
 		)
 		(property "Sheetfile" "WiFiboard.kicad_sch"
-			(at 101.6 159.3346 0)
+			(at 100.965 148.5396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2394,8 +2394,8 @@
 		)
 	)
 	(sheet
-		(at 102.235 172.085)
-		(size 52.07 28.575)
+		(at 100.33 159.385)
+		(size 52.07 37.465)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2410,7 +2410,7 @@
 		)
 		(uuid "f5fe821a-4bb8-48f8-afca-98373fb03684")
 		(property "Sheetname" "IMUs"
-			(at 102.235 171.3734 0)
+			(at 100.33 158.6734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Sheetfile" "acs_IMUs.kicad_sch"
-			(at 102.235 201.2446 0)
+			(at 100.33 197.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
