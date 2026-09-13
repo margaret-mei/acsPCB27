@@ -708,6 +708,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -727,7 +735,7 @@
         "uuid": "67a598cb-afc0-4277-b58a-8f35d31efc48"
       }
     ],
-    "used_designators": "L1,Cout1-2,R1-8,R12-15,C1-6,C8-29,#PWR1-8,#PWR11-14,A1,100nF1-4,U1-9",
+    "used_designators": "#FLG1-11,J1-5,L1,Cout1-2,R1-8,R12-15,C1-6,C8-29,#PWR1-8,#PWR11-32,A1,100nF1-4,U1-9",
     "variants": []
   },
   "sheets": [
@@ -746,6 +754,10 @@
     [
       "52e21e5d-46e6-440d-b2c7-d7be369a43cb",
       "Indicators"
+    ],
+    [
+      "40a97d9b-8926-4155-910d-2a9118abe21d",
+      "Motor Interfacing"
     ],
     [
       "8f3a2ae2-24ee-4ca8-930f-6202803bc7c8",

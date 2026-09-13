@@ -898,6 +898,16 @@
 		)
 		(uuid "52710c8e-3145-4a93-b7df-ef2750083221")
 	)
+	(text "Indicators"
+		(exclude_from_sim no)
+		(at 132.715 32.385 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "8e6b4885-9eae-446a-b456-33b70f2bb966")
+	)
 	(text "LED Indicator"
 		(exclude_from_sim no)
 		(at 91.44 88.9 0)
