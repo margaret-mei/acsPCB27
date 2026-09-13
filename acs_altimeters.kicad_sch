@@ -278,7 +278,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "SDO"
