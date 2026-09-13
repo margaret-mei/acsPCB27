@@ -1238,7 +1238,7 @@
 	)
 	(text "interrupts? maybe? no?"
 		(exclude_from_sim no)
-		(at 226.695 84.455 0)
+		(at 246.38 73.025 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1494,6 +1494,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 66.04) (xy 224.155 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f265313e-ddd6-4338-b2d9-7f2e9956fbc5")
+	)
+	(wire
+		(pts
 			(xy 212.09 71.12) (xy 224.79 71.12)
 		)
 		(stroke
@@ -1560,7 +1570,7 @@
 			)
 		)
 	)
-	(global_label "Vin"
+	(global_label "5V"
 		(shape input)
 		(at 219.075 33.02 0)
 		(fields_autoplaced yes)
@@ -1572,7 +1582,31 @@
 		)
 		(uuid "2ae09651-b0c1-4840-893d-2d68e4721891")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.9026 33.02 0)
+			(at 224.3583 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VoltMonitor"
+		(shape input)
+		(at 224.155 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31927392-80d0-422d-819c-6df4ee37931b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.7838 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2400,7 +2434,7 @@
 		)
 	)
 	(sheet
-		(at 38.735 28.575)
+		(at 62.23 40.005)
 		(size 61.595 36.195)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2416,7 +2450,7 @@
 		)
 		(uuid "8f3a2ae2-24ee-4ca8-930f-6202803bc7c8")
 		(property "Sheetname" "Power"
-			(at 38.735 27.8634 0)
+			(at 62.23 39.2934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2427,7 +2461,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 38.735 65.3546 0)
+			(at 62.23 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2441,52 +2475,6 @@
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 100.965 112.395)
-		(size 51.435 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b00ea79a-9509-46ba-9d77-394a9b994d6c")
-		(property "Sheetname" "WiFi board"
-			(at 100.965 111.6834 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "WiFiboard.kicad_sch"
-			(at 100.965 148.5396 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
-					(page "5")
 				)
 			)
 		)
