@@ -727,7 +727,7 @@
         "uuid": "67a598cb-afc0-4277-b58a-8f35d31efc48"
       }
     ],
-    "used_designators": "L1,Cout1-2,R1-8,R12-15,C1-6,C8-25,#PWR1-8,#PWR11-13,A1,100nF1-4,U1-9",
+    "used_designators": "L1,Cout1-2,R1-8,R12-15,C1-6,C8-29,#PWR1-8,#PWR11-14,A1,100nF1-4,U1-9",
     "variants": []
   },
   "sheets": [
@@ -746,10 +746,6 @@
     [
       "52e21e5d-46e6-440d-b2c7-d7be369a43cb",
       "Indicators"
-    ],
-    [
-      "b00ea79a-9509-46ba-9d77-394a9b994d6c",
-      "WiFi board"
     ],
     [
       "8f3a2ae2-24ee-4ca8-930f-6202803bc7c8",
