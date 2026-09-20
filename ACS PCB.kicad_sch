@@ -1777,36 +1777,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Alt/IMU 0 / Alt 2 --> SPI 0\nAlt/IMU 1 / IMU 2 --> SPI 1"
-		(exclude_from_sim no)
-		(at 239.395 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1f236ac0-732a-43b8-873f-5b0256290a5c")
-	)
-	(text "PWM"
-		(exclude_from_sim no)
-		(at 227.33 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3e3f404f-f182-42ba-b774-145afa417dea")
-	)
-	(text "interrupts? maybe? no?"
-		(exclude_from_sim no)
-		(at 246.38 73.025 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "75ca9128-467f-4705-805c-737fbecfd756")
-	)
 	(text "Battery"
 		(exclude_from_sim no)
 		(at 210.82 139.7 0)
@@ -1816,16 +1786,6 @@
 			)
 		)
 		(uuid "bfe3d0dc-5486-4cd8-ba91-a356379423a0")
-	)
-	(text "Digital"
-		(exclude_from_sim no)
-		(at 231.14 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ffa82eae-98e0-4ced-8e74-f4ec4ae6eed3")
 	)
 	(junction
 		(at 182.245 101.6)
@@ -1864,6 +1824,10 @@
 		(uuid "264d400a-7915-4a4c-9f2f-1020930bde5d")
 	)
 	(no_connect
+		(at 212.09 35.56)
+		(uuid "367f711d-8767-4a65-846c-ea19fc755075")
+	)
+	(no_connect
 		(at 186.69 96.52)
 		(uuid "41f6e148-06e5-42b2-856d-7562c538ea35")
 	)
@@ -1878,10 +1842,6 @@
 	(no_connect
 		(at 186.69 93.98)
 		(uuid "47f36896-6816-443b-a04b-de4e0d3fd13e")
-	)
-	(no_connect
-		(at 220.345 35.56)
-		(uuid "7d12b3a9-8208-4991-8d16-1b68a3560233")
 	)
 	(no_connect
 		(at 186.69 66.04)
@@ -2196,16 +2156,6 @@
 			(type default)
 		)
 		(uuid "d5aadeef-00a2-4ea8-9443-6c57cf1528ab")
-	)
-	(wire
-		(pts
-			(xy 212.09 35.56) (xy 220.345 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe6e265-b04b-47ef-904b-96238bbc021b")
 	)
 	(wire
 		(pts
@@ -3987,8 +3937,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 159.385)
-		(size 52.07 37.465)
+		(at 97.79 159.385)
+		(size 54.61 37.465)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4003,7 +3953,7 @@
 		)
 		(uuid "f5fe821a-4bb8-48f8-afca-98373fb03684")
 		(property "Sheetname" "IMUs"
-			(at 100.33 158.6734 0)
+			(at 97.79 158.6734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,7 +3964,7 @@
 			)
 		)
 		(property "Sheetfile" "acs_IMUs.kicad_sch"
-			(at 100.33 197.4346 0)
+			(at 97.79 197.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
