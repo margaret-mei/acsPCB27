@@ -3348,10 +3348,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "777b82d6-c315-425e-b963-8c12a82a46ae")
 		(property "Reference" "L1"
-			(at 153.67 76.835 90)
+			(at 153.67 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
