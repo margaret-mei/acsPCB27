@@ -846,6 +846,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Make sure capacitors are rated"
+		(exclude_from_sim no)
+		(at 106.045 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06ffdac9-7009-46f0-a512-906e06b24883")
+	)
 	(text "DS51150 — Fullscale  Motor"
 		(exclude_from_sim no)
 		(at 102.235 62.865 0)
@@ -1326,7 +1336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 92.075 76.835 0)
 			(hide yes)
 			(show_name no)
@@ -1809,7 +1819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.82 72.39 0)
 			(hide yes)
 			(show_name no)
