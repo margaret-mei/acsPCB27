@@ -2293,16 +2293,16 @@
 		(uuid "231e931e-ce99-49da-aad1-17f87c581f05")
 	)
 	(no_connect
-		(at 186.69 60.96)
-		(uuid "264d400a-7915-4a4c-9f2f-1020930bde5d")
-	)
-	(no_connect
 		(at 212.09 35.56)
 		(uuid "367f711d-8767-4a65-846c-ea19fc755075")
 	)
 	(no_connect
 		(at 212.09 104.14)
 		(uuid "44a0560d-7bb6-4472-bec2-8cc679ff055c")
+	)
+	(no_connect
+		(at 186.69 55.88)
+		(uuid "4a2ea3ff-1806-441f-be1e-934b622a2c2d")
 	)
 	(no_connect
 		(at 212.09 43.18)
@@ -2540,30 +2540,6 @@
 		)
 		(uuid "e892cc78-1d94-4be1-8c9d-ece238609c40")
 	)
-	(global_label "PWM_fs"
-		(shape input)
-		(at 186.69 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "382bec7f-bbaf-4273-89e0-108b5ebde73a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.8106 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "INT_I2"
 		(shape input)
 		(at 212.09 63.5 0)
@@ -2729,6 +2705,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "PWM"
+		(shape input)
+		(at 186.69 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87caac55-796b-43eb-957f-2dcad065b53c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.532 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

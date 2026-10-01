@@ -707,6 +707,90 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (µH)",
+          "name": "L (µH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Published Date",
+          "name": "Published Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC typ. (mΩ)",
+          "name": "RDC typ. (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT,30% (A)",
+          "name": "ISAT,30% (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IRP,40K (A)",
+          "name": "IRP,40K (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOP (V)",
+          "name": "VOP (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "fres (MHz)",
+          "name": "fres (MHz)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Match Code",
+          "name": "Match Code",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -773,7 +857,7 @@
         "uuid": "67a598cb-afc0-4277-b58a-8f35d31efc48"
       }
     ],
-    "used_designators": "U1-9,C1-6,C8-29,100nF1-4,A1,#PWR1-8,#PWR11-34,#PWR38-39,D5-6,R1-8,R12-15,R17-19,#FLG1-20,J1-6,Cout1-2,L1-2,F1-2",
+    "used_designators": "F1-2,L1-2,Cout1-2,J1-6,#FLG1-20,R1-8,R12-15,R17-20,#PWR1-8,#PWR11-34,#PWR38-39,D5-6,U1-9,C1-6,C8-29,A1,100nF1-4",
     "variants": []
   },
   "sheets": [

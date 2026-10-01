@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ca5ffdc9-9fe2-4f3a-aded-9e9174bc3a75")
+	(paper "A4")
+	(title_block
+		(title "ACS PCB")
+		(date "2026-07-31")
+		(rev "0")
+		(company "Notre Dame Rocketry Team")
+	)
+	(lib_symbols)
+)
