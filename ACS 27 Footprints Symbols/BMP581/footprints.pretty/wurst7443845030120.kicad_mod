@@ -1,0 +1,101 @@
+(footprint "wurst7443845030120"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor 12uH")
+	(property "Reference" "wurst7443845030120"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5132a99a-392d-4549-89cd-3e2d9feea895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "12uH"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f7176168-c687-4e05-a621-936f096858f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7443845030120_valid_from_2026-10-27.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b1bd02d-9948-426f-a3d6-68c675e7f89b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e1c1ace-9edb-4c36-ab40-f3e85eeb0c94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.245 -0.24)
+		(end 5.785 5.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5cc2d0e6-1e6d-4e84-977b-153f1bf0732c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b141ffb-0411-4569-9e01-4ca11cd6ec79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.77 0.85)
+		(size 1.7 5.6)
+		(drill
+			(offset 0 1.9575)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de57143e-4c78-48a9-824d-7492515278c2")
+	)
+	(pad "2" smd rect
+		(at 0.84 0.85)
+		(size 1.7 5.6)
+		(drill
+			(offset 0 1.9575)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "504c7f21-769d-4959-822f-f7322f9ed2b5")
+	)
+	(embedded_fonts no)
+)
