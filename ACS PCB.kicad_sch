@@ -2301,10 +2301,6 @@
 		(uuid "367f711d-8767-4a65-846c-ea19fc755075")
 	)
 	(no_connect
-		(at 186.69 96.52)
-		(uuid "41f6e148-06e5-42b2-856d-7562c538ea35")
-	)
-	(no_connect
 		(at 212.09 104.14)
 		(uuid "44a0560d-7bb6-4472-bec2-8cc679ff055c")
 	)
@@ -2359,6 +2355,10 @@
 	(no_connect
 		(at 186.69 38.1)
 		(uuid "f077cf3d-13a2-49fa-9a30-d1eb655d7f63")
+	)
+	(no_connect
+		(at 212.09 40.64)
+		(uuid "f619877e-5d01-4558-8eeb-aa673fdf8bd9")
 	)
 	(wire
 		(pts
@@ -2732,30 +2732,6 @@
 			)
 		)
 	)
-	(global_label "Buzzer"
-		(shape input)
-		(at 212.09 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93a5370f-c975-40c8-af39-cf889a45f7ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.4252 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MOSI1"
 		(shape input)
 		(at 186.69 50.8 180)
@@ -3113,6 +3089,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Buzzer"
+		(shape input)
+		(at 186.69 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fddc11f3-f77e-4a8f-ad45-6b3f078369e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.3548 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
