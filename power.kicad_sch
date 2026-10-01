@@ -1963,19 +1963,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "WHERE DOES C23 GO????"
-		(exclude_from_sim no)
-		(at 44.45 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "18043e83-dd1f-48a3-95a5-7473f927bb5d")
-	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 152.4 28.575 0)
+		(at 115.57 32.385 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -2086,12 +2076,6 @@
 		(uuid "9d4f5377-9747-4e00-adca-5d55d288c337")
 	)
 	(junction
-		(at 69.85 50.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1afa594-401e-4d6a-ab07-204dbcdb6665")
-	)
-	(junction
 		(at 149.225 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2108,6 +2092,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b2534d-7343-4219-8fd7-ce4e22a33f53")
+	)
+	(junction
+		(at 69.215 50.165)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca02808f-1411-408f-8afc-359db27e6e74")
 	)
 	(junction
 		(at 195.58 81.915)
@@ -2449,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.165) (xy 69.85 79.375)
+			(xy 69.215 50.165) (xy 69.215 79.375)
 		)
 		(stroke
 			(width 0)
@@ -2469,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.215 50.165) (xy 73.025 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef4c2e9-e907-40f7-aff1-8324645c9f88")
+	)
+	(wire
+		(pts
 			(xy 86.995 67.945) (xy 86.995 69.215)
 		)
 		(stroke
@@ -2476,16 +2476,6 @@
 			(type default)
 		)
 		(uuid "6bb7ba29-009d-4fd2-ac0b-fa1b5fdaf736")
-	)
-	(wire
-		(pts
-			(xy 69.85 50.165) (xy 73.025 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6da8bd68-f958-40ba-9ba9-4d4458ac96c1")
 	)
 	(wire
 		(pts
@@ -2509,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 79.375) (xy 69.85 79.375)
+			(xy 93.98 79.375) (xy 69.215 79.375)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2799,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.165) (xy 69.85 50.165)
+			(xy 59.69 50.165) (xy 69.215 50.165)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +3043,7 @@
 		(fields_autoplaced yes)
 		(uuid "045a275e-f739-4fc9-b912-070042ce4431")
 		(property "Reference" "C4"
-			(at 177.165 83.8262 0)
+			(at 176.53 83.8262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3063,8 +3053,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 177.165 86.3662 0)
+		(property "Value" "22u"
+			(at 176.53 86.3662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3074,7 +3064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 173.99 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3223,7 +3213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u"
 			(at 62.23 62.3188 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3245,7 +3235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "A768KE107M1VLAS036"
 			(at 59.69 61.595 0)
 			(hide yes)
 			(show_name no)
@@ -3305,7 +3295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 166.37 86.3662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 163.195 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3367,7 @@
 		(fields_autoplaced yes)
 		(uuid "48d4ab7e-d48b-4c5a-9f64-f2c88bf487f7")
 		(property "Reference" "C19"
-			(at 89.535 92.7162 0)
+			(at 88.9 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3387,8 +3377,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 89.535 95.2562 0)
+		(property "Value" "1u"
+			(at 88.9 95.2562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3788,7 +3778,7 @@
 		(fields_autoplaced yes)
 		(uuid "5baf3f95-791b-4332-9b85-52721a59429b")
 		(property "Reference" "C24"
-			(at 89.535 64.1412 0)
+			(at 90.17 64.1412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,8 +3788,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 89.535 66.6812 0)
+		(property "Value" "100n"
+			(at 90.17 66.6812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3870,7 +3860,7 @@
 		(fields_autoplaced yes)
 		(uuid "60cce7e5-eb88-4c93-961f-eb8b43660951")
 		(property "Reference" "C22"
-			(at 155.575 58.4262 0)
+			(at 154.94 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,8 +3870,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 155.575 60.9662 0)
+		(property "Value" "10u"
+			(at 154.94 60.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3891,7 +3881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.4 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +3951,7 @@
 				)
 			)
 		)
-		(property "Value" "PLM62440APPQRJRTQ1"
+		(property "Value" "LM62440CLPQRJRRQ1"
 			(at 115.57 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4080,7 +4070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 187.96 86.3662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4091,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 184.785 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4227,7 +4217,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86112d4a-add3-4554-95c2-b5c0dbfadcd3")
 		(property "Reference" "C20"
 			(at 144.145 58.4262 0)
@@ -4240,7 +4229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 144.145 60.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +4615,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbd7010e-f91c-441f-b229-8dbc8718c5f4")
 		(property "Reference" "C1"
-			(at 79.375 64.1412 0)
+			(at 78.74 64.1412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4636,8 +4625,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 79.375 66.6812 0)
+		(property "Value" "10u"
+			(at 78.74 66.6812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4647,7 +4636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -4788,7 +4777,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9e03c2a-aba8-4068-8efc-2d92c669b972")
 		(property "Reference" "C6"
-			(at 198.755 83.8262 0)
+			(at 198.12 83.8262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4798,8 +4787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 198.755 86.3662 0)
+		(property "Value" "22u"
+			(at 198.12 86.3662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4809,7 +4798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 195.58 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4880,7 +4869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 152.4 85.7312 0)
 			(show_name no)
 			(do_not_autoplace no)

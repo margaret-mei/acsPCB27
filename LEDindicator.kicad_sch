@@ -1521,7 +1521,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 91.44 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2030,7 +2030,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 91.44 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 91.44 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +2190,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 91.44 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
