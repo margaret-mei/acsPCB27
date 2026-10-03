@@ -1058,7 +1058,7 @@
 	)
 	(text "DS51150 — Fullscale  Motor and REEFS119 - Subscale Motor\n(Same interface, will switch the motors after subscale is odne)"
 		(exclude_from_sim no)
-		(at 102.235 62.865 0)
+		(at 93.345 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1087,34 +1087,34 @@
 		(uuid "cdffba31-0310-49b8-8084-90f4d6334079")
 	)
 	(junction
-		(at 92.075 73.025)
+		(at 102.87 71.755)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64beb717-0254-4b17-975e-051f2a765e08")
+		(uuid "1512559c-5d22-43ed-b003-de8363d17119")
 	)
 	(junction
-		(at 92.075 80.01)
+		(at 90.805 79.375)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "750ae416-228d-4d7a-a101-0b91ad16947f")
+		(uuid "3b51fd05-43b3-4fde-8da8-6380108be224")
 	)
 	(junction
-		(at 82.55 73.025)
+		(at 79.375 79.375)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a85777b1-b2d6-4796-bae7-1bd0594b2072")
+		(uuid "9abfd04d-881f-49cd-af30-40bf3c185614")
 	)
 	(junction
-		(at 102.87 73.025)
+		(at 85.725 71.755)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9c4cdbf-27c2-431e-a42e-76f6826652d0")
+		(uuid "be6a7ea3-ebc1-4646-9e63-70320e702236")
 	)
 	(junction
-		(at 100.965 80.01)
+		(at 90.805 71.755)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3db999f-0e0e-41bb-9422-3b08a9432206")
+		(uuid "cde37741-52a7-4b47-9d7f-7636da0d0aee")
 	)
 	(no_connect
 		(at 107.95 92.71)
@@ -1122,7 +1122,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 73.66) (xy 82.55 73.025)
+			(xy 85.725 71.755) (xy 90.805 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bb58b7-d296-4f69-beac-baf0d5ce809c")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.025) (xy 102.87 71.755)
 		)
 		(stroke
 			(width 0)
@@ -1132,123 +1142,103 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 82.55 80.01)
+			(xy 90.805 79.375) (xy 102.87 79.375)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c3d5519-8163-4671-b0f4-f2c99cab7049")
+		(uuid "0a56f6fe-2f6e-4f25-bc36-f9219605d07e")
 	)
 	(wire
 		(pts
-			(xy 92.075 79.375) (xy 92.075 80.01)
+			(xy 79.375 74.295) (xy 79.375 79.375)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3491436f-3073-41d5-8a88-62c103b9030e")
+		(uuid "0e1e3ae1-8873-463d-89cc-91eeb8cecbce")
 	)
 	(wire
 		(pts
-			(xy 102.87 73.025) (xy 105.41 73.025)
+			(xy 90.805 73.025) (xy 90.805 71.755)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f4e9f1c-89ae-4e2e-8926-27066830f9e1")
+		(uuid "1b6be682-f3f3-4096-8445-654b05fd450a")
 	)
 	(wire
 		(pts
-			(xy 78.74 73.025) (xy 82.55 73.025)
+			(xy 109.22 71.755) (xy 102.87 71.755)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d922f12-7298-4560-b903-429fc3ca4f73")
+		(uuid "3fed214c-fbaa-4145-83ff-5246c6c97cb2")
 	)
 	(wire
 		(pts
-			(xy 92.075 73.025) (xy 102.87 73.025)
+			(xy 79.375 71.755) (xy 85.725 71.755)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e56857e-5d46-41da-beee-ad9946a834a2")
+		(uuid "49c44a0f-dead-43bc-8a57-02dfe4f26856")
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 92.075 80.01)
+			(xy 90.805 71.755) (xy 102.87 71.755)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70bf5e32-15c6-4728-a123-5258df7489d6")
+		(uuid "4fd64f87-b75a-4d24-b0df-cc8543ef60cc")
 	)
 	(wire
 		(pts
-			(xy 100.965 81.915) (xy 100.965 80.01)
+			(xy 79.375 79.375) (xy 90.805 79.375)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fa12007-d852-405d-b2b2-2100cec4c3d3")
+		(uuid "705f1aff-6f6a-4b9c-ac50-0694e5945fc5")
 	)
 	(wire
 		(pts
-			(xy 100.965 80.01) (xy 100.965 75.565)
+			(xy 90.805 79.375) (xy 90.805 78.105)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a95ed936-88ca-4d09-b810-f4a556d8a893")
+		(uuid "b13044be-437b-47b5-8fe7-b1455e16603f")
 	)
 	(wire
 		(pts
-			(xy 100.965 75.565) (xy 105.41 75.565)
+			(xy 79.375 79.375) (xy 79.375 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5478d60-2782-4475-9844-01fdb766512c")
+		(uuid "c1d3dd8c-f14d-4192-a0bd-c31239e037cb")
 	)
 	(wire
 		(pts
-			(xy 92.075 74.295) (xy 92.075 73.025)
+			(xy 102.87 78.105) (xy 102.87 79.375)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c600cf8a-95a8-4425-96a7-135d73ba9ae7")
-	)
-	(wire
-		(pts
-			(xy 92.075 80.01) (xy 100.965 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6452ad5-0f3d-4afe-a6b8-824bd71b6c57")
-	)
-	(wire
-		(pts
-			(xy 82.55 73.025) (xy 92.075 73.025)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc87c287-a8d1-479d-a039-495f2f228e0a")
+		(uuid "d0fcf5ac-072d-4b79-9c54-21b292b5bd47")
 	)
 	(global_label "PWM"
 		(shape input)
@@ -1275,8 +1265,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 92.075 76.835 0)
+		(lib_id "power:+BATT")
+		(at 109.22 71.755 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1285,31 +1275,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f7dcd37-14a8-456b-b9a0-3460e1e24e44")
-		(property "Reference" "C25"
-			(at 95.25 75.0188 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330u"
-			(at 95.25 77.5588 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x9.9"
-			(at 92.075 76.835 0)
+		(uuid "235c3d67-ea8b-436d-a317-bec883666ed3")
+		(property "Reference" "#PWR02"
+			(at 105.41 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,150 +1287,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.075 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 92.075 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "015992e7-56ef-4310-8fc9-bf5935f9d9f0")
-		)
-		(pin "2"
-			(uuid "ee105357-105b-48fd-a9fc-48ff01506824")
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 110.49 73.025 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68156a2d-b181-4b4f-bbef-5e57788c384a")
-		(property "Reference" "J1"
-			(at 113.665 73.0249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 113.665 75.5649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 110.49 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 110.49 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "956bf4f6-98ac-4730-88c7-134ef56a87f4")
-		)
-		(pin "1"
-			(uuid "ab2ca349-5e4a-41e4-9283-61fb215d8797")
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.965 81.915 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d89c417-5477-4496-9e59-665c5bf51000")
-		(property "Reference" "#PWR015"
-			(at 100.965 88.265 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 83.1849 0)
+		(property "Value" "+BATT"
+			(at 113.03 71.7549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1473,7 +1299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.965 81.915 0)
+			(at 109.22 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1484,7 +1310,165 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.965 81.915 0)
+			(at 109.22 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 109.22 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feab0e25-4d0a-4577-bbde-681ff88154b9")
+		)
+		(instances
+			(project "ACS PCB"
+				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 74.295 74.295 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54097e78-fdbc-4657-9b6b-6b5f503358d8")
+		(property "Reference" "J3"
+			(at 74.295 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 74.295 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 74.295 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.295 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc34e4a1-134c-4313-a4aa-29e2ad1710db")
+		)
+		(pin "1"
+			(uuid "94a20017-1f35-4ba8-9cd6-abfb4943f4f7")
+		)
+		(instances
+			(project "ACS PCB"
+				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 79.375 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d89c417-5477-4496-9e59-665c5bf51000")
+		(property "Reference" "#PWR015"
+			(at 79.375 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.375 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.375 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1495,7 +1479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.965 81.915 0)
+			(at 79.375 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1600,8 +1584,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 78.74 73.025 90)
+		(lib_id "Device:C_Polarized_Small")
+		(at 90.805 75.565 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1610,20 +1594,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aeb79164-c89f-4c20-8bf1-439ddb876f9d")
-		(property "Reference" "#PWR02"
-			(at 82.55 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 75.565 73.0249 90)
+		(uuid "c84f7bc9-bdc8-45cb-a230-0b3d40ad4c82")
+		(property "Reference" "C25"
+			(at 93.98 73.7488 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1633,8 +1606,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 73.025 0)
+		(property "Value" "330u"
+			(at 93.98 76.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x9.9"
+			(at 90.805 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1645,7 +1629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 73.025 0)
+			(at 90.805 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,8 +1639,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 78.74 73.025 0)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 90.805 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,20 +1651,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d80db63-4653-4acc-bc70-80f7abdbd0ce")
+			(uuid "e2969473-17ef-4a14-ad32-93945d093bf7")
+		)
+		(pin "2"
+			(uuid "325f5d56-7b1f-43e7-8a8b-0681db7240dd")
 		)
 		(instances
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
-					(reference "#PWR02")
+					(reference "C25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 76.2 0)
+		(lib_id "power:PWR_FLAG")
+		(at 85.725 71.755 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1689,31 +1676,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd72334b-acec-4ecb-adb8-7ebc05ff3b56")
-		(property "Reference" "C26"
-			(at 85.09 74.9362 0)
+		(uuid "db48eca9-d451-447f-8fd2-953142c75d08")
+		(property "Reference" "#FLG010"
+			(at 85.725 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 85.09 77.4762 0)
+		(property "Value" "PWR_FLAG"
+			(at 85.725 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 82.55 76.2 0)
+		(property "Footprint" ""
+			(at 85.725 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1724,7 +1710,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 76.2 0)
+			(at 85.725 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 85.725 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f81460e0-39a5-4a3b-a77e-be6f8d9d8ee6")
+		)
+		(instances
+			(project "ACS PCB"
+				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 102.87 75.565 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd72334b-acec-4ecb-adb8-7ebc05ff3b56")
+		(property "Reference" "C26"
+			(at 105.41 74.3012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 105.41 76.8412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1735,7 +1800,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 76.2 0)
+			(at 102.87 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1755,84 +1820,6 @@
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 102.87 73.025 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eae8506a-d746-4403-9495-57ca9f448cd9")
-		(property "Reference" "#FLG010"
-			(at 102.87 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 102.87 67.945 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 102.87 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32bc0e5c-0fda-4b0f-afe0-f91e444ff5fd")
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/40a97d9b-8926-4155-910d-2a9118abe21d"
-					(reference "#FLG010")
 					(unit 1)
 				)
 			)

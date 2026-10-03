@@ -819,7 +819,7 @@
 							)
 						)
 					)
-					(number "3.3V2"
+					(number "3.3V"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -837,7 +837,7 @@
 							)
 						)
 					)
-					(number "3.3V3"
+					(number "3.3V"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2263,10 +2263,10 @@
 		(uuid "32fc8a77-cf28-44a0-ad98-a789946be06c")
 	)
 	(junction
-		(at 203.2 142.875)
+		(at 227.33 145.415)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a46e3b0-0417-4111-aa5f-af7b52dace5a")
+		(uuid "66fcdafc-abfb-4fda-9589-56a86da26853")
 	)
 	(junction
 		(at 216.535 33.02)
@@ -2275,10 +2275,10 @@
 		(uuid "78aad09b-f83f-408a-b3a8-051bb6228b65")
 	)
 	(junction
-		(at 220.345 151.13)
+		(at 205.105 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85a7a881-8658-44e9-bc06-1ec5118d128f")
+		(uuid "a57ced35-8126-4382-ba73-d9b68237f7c0")
 	)
 	(no_connect
 		(at 186.69 53.34)
@@ -2362,13 +2362,33 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 142.875) (xy 203.2 142.875)
+			(xy 227.33 145.415) (xy 230.505 145.415)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e946bae-d4dc-4799-8960-45ac9c72992c")
+		(uuid "1475ec6f-91d9-48af-9233-1738a151c48a")
+	)
+	(wire
+		(pts
+			(xy 205.105 153.67) (xy 227.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25870083-7415-4b6f-87c8-b4be96bc6e42")
+	)
+	(wire
+		(pts
+			(xy 212.725 145.415) (xy 201.93 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bff2205-bdac-4f2b-b3fd-6bd65a0a7057")
 	)
 	(wire
 		(pts
@@ -2379,16 +2399,6 @@
 			(type default)
 		)
 		(uuid "52fb88f7-0da7-4279-bf05-74a702d8cd9c")
-	)
-	(wire
-		(pts
-			(xy 220.345 145.415) (xy 222.25 145.415)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53656d43-2ef7-402b-87af-1e02946b17b1")
 	)
 	(wire
 		(pts
@@ -2422,16 +2432,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 142.875) (xy 222.25 142.875)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2afafa-f3e3-4e5b-bb2f-1eb15210d4ad")
-	)
-	(wire
-		(pts
 			(xy 212.09 33.02) (xy 216.535 33.02)
 		)
 		(stroke
@@ -2452,23 +2452,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 142.875) (xy 210.185 142.875)
+			(xy 220.345 145.415) (xy 227.33 145.415)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8746d506-0633-4821-b708-fc776978f570")
-	)
-	(wire
-		(pts
-			(xy 220.345 151.13) (xy 220.345 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2b1980-97bf-4d89-ae7e-c0b0198aa0b2")
+		(uuid "85a10c22-40cb-4734-b063-e34bb8a1e598")
 	)
 	(wire
 		(pts
@@ -2482,23 +2472,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 150.495) (xy 203.2 151.13)
+			(xy 201.93 147.955) (xy 205.105 147.955)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a80bb995-5cce-411a-9669-7b9140470daa")
+		(uuid "a11254ac-c42f-47a3-89cb-ed737e52aaa6")
 	)
 	(wire
 		(pts
-			(xy 220.345 145.415) (xy 220.345 151.13)
+			(xy 205.105 153.67) (xy 205.105 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4740117-bbf0-4eb6-be77-1e78a3c34cca")
+		(uuid "a7f63edc-382e-4c3c-9055-4441bf988661")
 	)
 	(wire
 		(pts
@@ -2512,13 +2502,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 151.13) (xy 220.345 151.13)
+			(xy 227.33 153.035) (xy 227.33 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9f2f63e-19b0-453d-a28b-b4142e5f9eca")
+		(uuid "b9ea8b49-63e2-4b2b-85ed-5a23f088267d")
+	)
+	(wire
+		(pts
+			(xy 205.105 147.955) (xy 205.105 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3f9da7-4ad8-473e-99b1-6383d88bd2cd")
 	)
 	(wire
 		(pts
@@ -3141,8 +3141,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 196.85 142.875 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 196.85 147.955 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3151,10 +3151,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ab8b620-f233-4704-92e9-42833dd9bc23")
-		(property "Reference" "#PWR018"
-			(at 200.66 142.875 0)
-			(hide yes)
+		(uuid "0978b553-a4ef-4b8d-8ae6-0a93fce65205")
+		(property "Reference" "J5"
+			(at 196.85 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3163,19 +3162,18 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 193.04 142.8749 90)
+		(property "Value" "Conn_01x02"
+			(at 196.85 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 142.875 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+			(at 196.85 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3186,7 +3184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 142.875 0)
+			(at 196.85 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,8 +3194,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 196.85 142.875 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 147.955 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,14 +3204,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "b0b44231-42d5-4238-981e-a802753f5aa4")
 		)
 		(pin "1"
-			(uuid "e3dc0d98-fe39-43d4-978f-a29cf8f147ce")
+			(uuid "83288862-f4dd-4e7f-84ff-c01dc84060a6")
 		)
 		(instances
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
-					(reference "#PWR018")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3299,6 +3300,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 205.105 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18c069fd-a4ed-44b2-a5b2-c408072c4949")
+		(property "Reference" "#PWR020"
+			(at 205.105 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.105 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.105 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.105 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c1216c6-d12f-4b9b-87ac-1453651a7b29")
+		)
+		(instances
+			(project "ACS PCB"
+				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 184.785 33.02 90)
 		(unit 1)
@@ -3378,8 +3458,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 220.345 152.4 0)
+		(lib_id "Device:D_Schottky")
+		(at 227.33 149.225 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3388,20 +3468,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2785ec39-e842-40c8-87e7-bcd50a3f2e9e")
-		(property "Reference" "#PWR020"
-			(at 220.345 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 153.6699 0)
+		(uuid "31aae33d-0727-4446-884a-80ce95aa09e0")
+		(property "Reference" "D5"
+			(at 229.87 147.6374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3411,8 +3480,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.345 152.4 0)
+		(property "Value" "B540C-13-F"
+			(at 229.87 150.1774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 227.33 149.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.345 152.4 0)
+			(at 227.33 149.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3433,8 +3513,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.345 152.4 0)
+		(property "Description" "Schottky diode"
+			(at 227.33 149.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,12 +3525,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "12b5d3ae-3ddc-45e9-8f94-316c4b35867b")
+			(uuid "362f2e30-031f-4cfa-b989-f42584f2e901")
+		)
+		(pin "2"
+			(uuid "80bd35fa-1966-4802-98f0-487a7701ddda")
 		)
 		(instances
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
-					(reference "#PWR020")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3731,7 @@
 		(pin "23"
 			(uuid "d9e45d0d-687a-44b7-a435-9aacaf4a8246")
 		)
-		(pin "3.3V3"
+		(pin "3.3V"
 			(uuid "1f54cd01-5609-4951-b1c1-56379a0a638e")
 		)
 		(pin "34"
@@ -3663,7 +3746,7 @@
 		(pin "37"
 			(uuid "6f228541-228b-4c56-a1d4-40f6ef3fd893")
 		)
-		(pin "3.3V2"
+		(pin "3.3V"
 			(uuid "7b80f878-cbfc-4083-9f8e-08e266e9c32a")
 		)
 		(pin "35"
@@ -3790,90 +3873,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 203.2 146.685 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c2f2ca3-a18e-4004-a29b-21bc22f00782")
-		(property "Reference" "D5"
-			(at 205.74 145.0974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B540C-13-F"
-			(at 205.74 147.6374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMC"
-			(at 203.2 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 203.2 146.685 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b5f0834-9d2a-4068-af32-5ec288d2ce8d")
-		)
-		(pin "2"
-			(uuid "3ee4dc69-618f-4818-b303-e8d580aa089d")
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
-		(at 213.995 142.875 90)
+		(at 216.535 145.415 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3882,9 +3883,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4d374cc-8177-4cd5-8d69-3ef3fb831df9")
+		(uuid "743e42b9-349d-470d-bebd-8beb8af92c8c")
 		(property "Reference" "F1"
-			(at 213.995 136.525 90)
+			(at 216.535 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3894,7 +3895,7 @@
 			)
 		)
 		(property "Value" "0685H9100-01"
-			(at 213.995 139.065 90)
+			(at 216.535 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3904,7 +3905,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 213.995 144.653 90)
+			(at 216.535 147.193 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3915,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.995 142.875 0)
+			(at 216.535 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,7 +3927,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 213.995 142.875 0)
+			(at 216.535 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,15 +3938,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "27fec186-37c0-4fd1-b574-0208d602b37a")
+			(uuid "56032740-594d-4b55-aaae-c0180c78188f")
 		)
 		(pin "2"
-			(uuid "610231f3-7bf1-4eb6-9217-dd36ad2f017c")
+			(uuid "087ce68b-ac88-42c0-adc6-ef89d75b29d3")
 		)
 		(instances
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 230.505 145.415 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93f403d9-ecc2-4de5-8b4c-e7ef42ec119a")
+		(property "Reference" "#PWR018"
+			(at 226.695 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 233.68 145.4149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.505 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.505 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 230.505 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bb4700a-1f32-4bb1-871a-5fa26834bbcb")
+		)
+		(instances
+			(project "ACS PCB"
+				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4181,88 +4261,6 @@
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 227.33 142.875 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f167b4fb-eb12-44cb-9012-4a47b5d28dc2")
-		(property "Reference" "J5"
-			(at 229.87 142.8749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 229.87 145.4149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 227.33 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 227.33 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abe8e2e2-0bc9-482f-b6b6-29afb2857a87")
-		)
-		(pin "1"
-			(uuid "242a7be7-26d6-46b9-a2d1-2d3c64e0aa77")
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48"
-					(reference "J5")
 					(unit 1)
 				)
 			)

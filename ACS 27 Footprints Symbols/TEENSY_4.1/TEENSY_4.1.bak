@@ -316,7 +316,7 @@
 						)
 					)
 				)
-				(number "3V3"
+				(number "3.3V"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -334,7 +334,7 @@
 						)
 					)
 				)
-				(number "3V3@2"
+				(number "3.3V2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -352,7 +352,7 @@
 						)
 					)
 				)
-				(number "3V3@3"
+				(number "3.3V3"
 					(effects
 						(font
 							(size 1.016 1.016)
