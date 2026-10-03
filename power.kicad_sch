@@ -2028,12 +2028,6 @@
 		(uuid "741138e3-efc5-4580-9444-c2d69ba871c0")
 	)
 	(junction
-		(at 205.74 81.915)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a1d7324-b4e8-43ce-8f47-fda561e8752d")
-	)
-	(junction
 		(at 90.17 84.455)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2289,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 81.915) (xy 205.74 81.915)
+			(xy 203.835 81.915) (xy 208.28 81.915)
 		)
 		(stroke
 			(width 0)
@@ -2886,16 +2880,6 @@
 			(type default)
 		)
 		(uuid "f2479881-e266-4ff0-b196-b6a6cc1e708e")
-	)
-	(wire
-		(pts
-			(xy 205.74 81.915) (xy 208.28 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f262c9b9-f6ce-4917-a7fa-561dcd8c941a")
 	)
 	(wire
 		(pts
@@ -4124,84 +4108,6 @@
 			(project "ACS PCB"
 				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/8f3a2ae2-24ee-4ca8-930f-6202803bc7c8"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 205.74 81.915 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "822a5c91-3e4c-4d48-b9ad-1309029c5e21")
-		(property "Reference" "#FLG011"
-			(at 205.74 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 205.74 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 205.74 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "302e9d3f-7022-4d94-a0f8-d861fee7c678")
-		)
-		(instances
-			(project "ACS PCB"
-				(path "/67a598cb-afc0-4277-b58a-8f35d31efc48/8f3a2ae2-24ee-4ca8-930f-6202803bc7c8"
-					(reference "#FLG011")
 					(unit 1)
 				)
 			)
